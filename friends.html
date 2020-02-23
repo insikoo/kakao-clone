@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script src="https://kit.fontawesome.com/843dd043ca.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
@@ -18,31 +20,31 @@
             <i class="fas fa-wifi"></i>
             <span class="status-bar__battery">100%</span>
             <i class="fas fa-battery-full"></i>
-        </div>        
+        </div>
     </div>
-    <header>
+    <header class="header">
         <div class="header__header-column">
             <h1 class="header__title">Friends</h1>
-            <div class="header__icon">
-                <span class="header__icon">
-                    <i class="fas fa-search"></i>
-                </span>
-                <span class="header__icon">
-                    <i class="fas fa-cog"></i>
-                </span>
-            </div>
+        </div>
+        <div class="header__header-column">
+            <span class="header__icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-cog"></i>
+            </span>
         </div>
     </header>
     <main class="friends">
         <header class="friends__header">
-            <div class="friends__friend friend friend--lg">
+            <div class="friends__friend friend">
                 <div class="friend__column">
                     <img src="images/avatar.jpg" alt="" class="g-avatar friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             insikoo
                         </span>
-                        <span class="friend__stauts">
+                        <span class="friend__status">
                             www.insikoo.com
                         </span>
                     </div>
@@ -52,41 +54,42 @@
         <div class="friends__plus">
             <h5 class="friends__title">Plus Friend</h5>
             <div class="friends__friend friend">
-            <div class="friend__column">
-                    <img src="images/avatar.jpg" alt="" class="g-avatar friend__avatar">
+                <div class="friend__column">
+                    <img src="images/avatar.jpg" alt="" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             Plus Friend
                         </span>
                     </div>
-                 </div>
+                </div>
             </div>
         </div>
         <ul class="friends__list">
             <h5 class="friends__title">Friend 14</h5>
             <li class="friends__friend friend">
-            <div class="friend__column">
-                <img src="images/avatar.jpg" alt="" class="g-avatar friend__avatar">
-                        <div class="friend__content">
-                            <span class="friend__name">
-                                insikoo
-                            </span>
-                            <span class="friend__stauts">
-                                www.insikoo.com
-                            </span>
-                        </div>
+                <div class="friend__column">
+                    <img src="images/avatar.jpg" alt="" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            insikoo
+                        </span>
+                        <span class="friend__status">
+                            www.insikoo.com
+                        </span>
                     </div>
-                    <div class="friend__column">
-                        <div class="friend__now-listening">
-                            <span>
-                                FTISLAND (사랑앓이)
-                            </span>
-                            <i class="fas fa-play"></i>
-                        </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                        <span>
+                            FTISLAND (사랑앓이)
+                        </span>
+                        <i class="fas fa-play"></i>
                     </div>
-                </li>
+                </div>
+            </li>
         </ul>
     </main>
+
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__list-item">
@@ -112,4 +115,5 @@
         </ul>
     </nav>
 </body>
+
 </html>

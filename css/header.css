@@ -10,15 +10,16 @@
     font-weight: 600;
 }
 
-.header .header__icon{
+.header .header__icon {
     font-size: 20px;
     margin-left: 20px;
     cursor: pointer;
 }
 
-.header__header-column{
+.header__header-column {
     display: flex;
     align-items: center;
+    font-size: 20px;
 }
 
 .header__back-btn{
